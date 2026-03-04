@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WarungOviq</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+    
+</head>
+<body>
+
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand me-auto" href="#">Kafe Saya</a>
+      <div class="navv">
+      <ul class="navbar-nav">
+        <li class="nav-item me-5">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link active" href="produk.html">Produk</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#terlaris">Terlaris</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#testimony">Testimony</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#reservasi">Reservasi</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<section id="home">
+   <div class="container-fluid banner d-flex align-items-center banner-txt">
+    <div class="container">
+      <h2 class="text-center display-5 mb-1">Welcome In my Caffe</h2>
+      <h3 class="text-center display-7 mb-3">What Do You Want To Eat</h3>
+    </div>
+    
+   </div>
+</section>
+
+<section id="produk">
+  <div class="container-fluid py-5">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-3 col-md-8 mb-4">
+        <h4 class="text-light text-center mb-4">Kategori</h4>
+        <ul class="list-group">
+          <li class="list-group-item active">Kategori Menu</li>
+          <li class="list-group-item">Makanan</li>
+          <li class="list-group-item">Makanan Ringan</li> 
+          <li class="list-group-item">Minuman</li>       
+          <li class="list-group-item">Menu Tambahan</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-9">
+        <h4 class="text-center text-light mb-4">Semua Produk</h4>
+
+        <div class="row">
+
+          <!-- 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <a 
+              href="https://i.pinimg.com/736x/88/07/18/880718f4d7b84c7cedbfb117e6c42dc5.jpg" 
+              data-lightbox="produk"
+              data-title="Burger"
+              >
+                <img 
+                src="https://i.pinimg.com/736x/88/07/18/880718f4d7b84c7cedbfb117e6c42dc5.jpg" 
+                class="card-img-top product-img" 
+                alt="Burger"
+                >
+              </a>
+              <div class="card-body text-center">
+                <h5 class="text-warning">Burger</h5>
+                <p>Lengkap dengan daging dan isian lain lain</p>
+                <h5 class="text-warning mb-3">Rp 15.000</h5>
+                <div class="dropdown">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100" data-bs-toggle="dropdown">
+                    Pilih Aksi
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Tambah ke Keranjang</a></li>
+                    <li><a class="dropdown-item" href="#">Detail Produk</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <a href="brn.jpg" 
+              data-lightbox="produk"
+              data-title="brown sugar"
+              >
+                <img src="brn.jpg" 
+                class="card-img-top product-img" 
+                alt="Brown Sugar">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="text-warning">Ice Brown Sugar</h5>
+                <p>Gula + Cream dengan susu full cream</p>
+                <h5 class="text-warning mb-3">Rp 18.000</h5>
+                <div class="dropdown">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100" data-bs-toggle="dropdown">
+                    Pilih Aksi
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Tambah ke Keranjang</a></li>
+                    <li><a class="dropdown-item" href="#">Detail Produk</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <a href="https://i.pinimg.com/1200x/eb/bf/0e/ebbf0e54e8c2f6d8dd5b9fb5df59a6ac.jpg" 
+              data-lightbox="produk"
+              data-title="chicken">
+                <img src="https://i.pinimg.com/1200x/eb/bf/0e/ebbf0e54e8c2f6d8dd5b9fb5df59a6ac.jpg" 
+                class="card-img-top product-img" 
+                alt="Ayam Krispi">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="text-warning">Ayam Crispy</h5>
+                <p>Kulit Kering Pasti Renyah</p>
+                <h5 class="text-warning mb-3">Rp 10.000</h5>
+                <div class="dropdown">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100" data-bs-toggle="dropdown">
+                    Pilih Aksi
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Tambah ke Keranjang</a></li>
+                    <li><a class="dropdown-item" href="#">Detail Produk</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <a href="strb.jpg" 
+              data-lightbox="produk"
+              data-title="disert">
+                <img src="strb.jpg" 
+                class="card-img-top product-img" 
+                alt="Desert">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="text-warning">Cream Strowbery</h5>
+                <p>Lumer manis bikin nagih</p>
+                <h5 class="text-warning mb-3">Rp 12.000</h5>
+                <div class="dropdown">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100" data-bs-toggle="dropdown">
+                    Pilih Aksi
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Tambah ke Keranjang</a></li>
+                    <li><a class="dropdown-item" href="#">Detail Produk</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <a href="taro.jpg" 
+              data-lightbox="produk"
+              data-title="Ice Taro">
+                <img src="taro.jpg" 
+                class="card-img-top product-img" 
+                alt="Ice Taro">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="text-warning">Ice Taro</h5>
+                <p>Manis dan segar bikin nagih</p>
+                <h5 class="text-warning mb-3">Rp 17.000</h5>
+                <div class="dropdown">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100" data-bs-toggle="dropdown">
+                    Pilih Aksi
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Tambah ke Keranjang</a></li>
+                    <li><a class="dropdown-item" href="#">Detail Produk</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <a href="shake.jpg" 
+              data-lightbox="produk"
+              data-title="Milk Shake">
+                <img src="shake.jpg" 
+                class="card-img-top product-img" 
+                alt="Chocolate">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="text-warning">Milk Shake</h5>
+                <p>Creamy dan segar rasanya bikin nagih</p>
+                <h5 class="text-warning mb-3">Rp 19.000</h5>
+                <div class="dropdown">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100" data-bs-toggle="dropdown">
+                    Pilih Aksi
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Tambah ke Keranjang</a></li>
+                    <li><a class="dropdown-item" href="#">Detail Produk</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <a href="roti.jpg" 
+              data-lightbox="produk"
+              data-title="Roti Coklat Almond">
+                <img src="roti.jpg" 
+                class="card-img-top product-img" 
+                alt="Roti Coklat Almond">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="text-warning">Roti Coklat </h5>
+                <p>Almond dan coklat kombinasi yang enak</p>
+                <h5 class="text-warning mb-3">Rp 16.000</h5>
+                <div class="dropdown">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100" data-bs-toggle="dropdown">
+                    Pilih Aksi
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Tambah ke Keranjang</a></li>
+                    <li><a class="dropdown-item" href="#">Detail Produk</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <a href="https://i.pinimg.com/1200x/6a/cc/c9/6accc922af0f3dc0b1661380901e8de6.jpg" 
+              data-lightbox="produk"
+              data-title="milk strowbery">
+                <img src="https://i.pinimg.com/1200x/6a/cc/c9/6accc922af0f3dc0b1661380901e8de6.jpg" 
+                class="card-img-top product-img" 
+                alt="Milk Strowbery">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="text-warning">Milk Strowbery</h5>
+                <p>Kombinasi yang sempurna susu + Strowbery</p>
+                <h5 class="text-warning mb-3">Rp 19.000</h5>
+                <div class="dropdown">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100" data-bs-toggle="dropdown">
+                    Pilih Aksi
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Tambah ke Keranjang</a></li>
+                    <li><a class="dropdown-item" href="#">Detail Produk</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9 -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+              <a href="ice.jpg" 
+              data-lightbox="produk"
+              data-title="Ice Cream">
+                <img src="ice.jpg" 
+                class="card-img-top product-img" 
+                alt="Ice Cream">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="text-warning">Ice Cream</h5>
+                <p>Manis dingin creamy</p>
+                <h5 class="text-warning mb-3">Rp 13.000</h5>
+                <div class="dropdown">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100" data-bs-toggle="dropdown">
+                    Pilih Aksi
+                  </button>
+                  <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item" href="#">Tambah ke Keranjang</a></li>
+                    <li><a class="dropdown-item" href="#">Detail Produk</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center mt-4 text-center">
+    
+    <li class="page-item">
+      <a class="page-link" href="#">Previous</a>
+    </li>
+
+    <li class="page-item">
+      <a class="page-link" href="#">1</a>
+    </li>
+
+    <li class="page-item">
+      <a class="page-link" href="#">2</a>
+    </li>
+
+    <li class="page-item">
+      <a class="page-link" href="#">3</a>
+    </li>
+
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+
+  </ul>
+</nav>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION FOOTER -->
+<div class="container-fluid py-5 footer">
+    <div class="container">
+
+       
+        <h5 class="text-center mb-3">Temui Kami</h5>
+
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+            <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+
+        <!-- Subscribe -->
+        <h5 class="text-center mb-1">Berlangganan</h5>
+        <p class="text-center text-muted mb-3">Untuk mengetahui promo yang akan datang</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Ketikkan Email">
+                    <button class="btn btn-warning">Langganan</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<footer class="container-fluid py-4">
+    <div class="container">
+
+        <div class="row text-center text-md-start text-light">
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="fw-bold">Kafe Saya</h5>
+                <p class="text-muted small">Kafe paling cocok buat temui keluarga jauh atau pun 
+                 teman lama, dengan menu yang enak dan harga yang terjangkau
+                </p>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0 ">
+                <h6 class="fw-bold mb-3 text-light">Navigasi</h6>
+                <ul class="list-unstyled text-light" color="black">
+                    <li ><a href="#home" class="text-muted text-decoration-none">Home</a></li>
+                    <li><a href="#promo" class="text-muted text-decoration-none">Promo</a></li>
+                    <li><a href="#ulasan" class="text-muted text-decoration-none">Ulasan</a></li>
+                    <li><a href="#reserve" class="text-muted text-decoration-none">Reservasi</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-4">
+                <h6 class="fw-bold mb-3 ">Kontak</h6>
+                <ul class="list-unstyled text-muted small">
+                    <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Jl. Meri Kota. Mojokerto</li>
+                    <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 858 7343 37085</li>
+                    <li><i class="bi bi-envelope-fill me-2"></i>ovviqq@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="border-secondary mt-4 mb-3">
+        <p class="text-center text-muted small mb-0">
+            &copy; 2026 Kafe Saya. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</body>
+</html>

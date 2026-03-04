@@ -1,0 +1,135 @@
+
+
+.banner{
+    height: 80vh;
+    background: url(https://i.pinimg.com/1200x/45/ee/d7/45eed716b98117b6c275f5f7e4460941.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-txt{
+    color: #ffffff;
+}
+.navv {
+    color: #fff;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.navv a:hover {
+    text-decoration: underline;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: linear 0.4s;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #ffff;
+}
+
+.menu-favorit-content {
+    transition: .3s;
+}
+
+.menu-favorit-content:hover {
+    transform: scale(1.1);
+}
+
+
+#service{
+    background-color: rgba(87, 54, 5, 0.589);
+}
+
+.testimony {
+    background-color: rgb(87, 54, 5, 0.589) !important;
+}
+
+.testimony-card {
+    background: rgba(255, 255, 255, 0.07) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 16px;
+    padding: 28px;
+    transition: .3s;
+    height: 100%;
+}
+
+.testimony-card:hover {
+    transform: translateY(-6px);
+    background: rgba(255, 255, 255, 0.13);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.testimony-card .quote-icon {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.3);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.testimony-card h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.testimony-card .author {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 12px;
+}
+
+.testimony-card p {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.testimony-card .stars {
+    color: #ffee00;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+.subscribe-content {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.produk-banner {
+    height: 50vh;
+    background: url('../image/imagres.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    background-color: #595959;
+    color: white;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: #fff;
+    transition: .3s;
+}
+
+.footer .social-icon:hover {
+    color: #684e00;
+}
+
+.footer-desc {
+    color: #ffffff !important;
+}
+
+#textfooter,
+footer .col-md-4 p {
+    color: #ffffff !important;
+}
